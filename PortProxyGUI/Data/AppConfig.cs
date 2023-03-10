@@ -7,7 +7,7 @@ namespace PortProxyGUI.Data
 {
     public class AppConfig
     {
-        public Size MainWindowSize = new(720, 500);
+        public Size MainWindowSize = new(725, 500);
         public int[] PortProxyColumnWidths = new int[] { 24, 64, 140, 100, 140, 100, 100 };
 
         private readonly Regex _intArrayRegex = new(@"^\[\s*(\d+)(?:\s*,\s*(\d+))*\s*\]$");
