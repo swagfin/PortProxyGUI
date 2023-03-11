@@ -105,28 +105,28 @@
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="toolStripMenuItem_Enable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>164, 22</value>
+    <value>201, 22</value>
   </data>
   <data name="toolStripMenuItem_Enable.Text" xml:space="preserve">
     <value>Enable (&amp;E)</value>
   </data>
   <data name="toolStripMenuItem_Disable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>164, 22</value>
+    <value>201, 22</value>
   </data>
   <data name="toolStripMenuItem_Disable.Text" xml:space="preserve">
     <value>Disable (&amp;I)</value>
   </data>
   <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 6</value>
+    <value>198, 6</value>
   </data>
   <data name="toolStripMenuItem_Refresh.Size" type="System.Drawing.Size, System.Drawing">
-    <value>164, 22</value>
+    <value>201, 22</value>
   </data>
   <data name="toolStripMenuItem_Refresh.Text" xml:space="preserve">
     <value>Refresh (&amp;F)</value>
   </data>
   <data name="toolStripMenuItem_FlushDnsCache.Size" type="System.Drawing.Size, System.Drawing">
-    <value>164, 22</value>
+    <value>201, 22</value>
   </data>
   <data name="toolStripMenuItem_FlushDnsCache.Text" xml:space="preserve">
     <value>Flush DNS Cache</value>
@@ -134,29 +134,38 @@
   <data name="toolStripMenuItem_FlushDnsCache.ToolTipText" xml:space="preserve">
     <value>Perform ipconfig /flushDNS</value>
   </data>
+  <data name="toolStripMenuItem_RestartIpHlpSvc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="toolStripMenuItem_RestartIpHlpSvc.Text" xml:space="preserve">
+    <value>Restart IP Helper Service</value>
+  </data>
+  <data name="toolStripMenuItem_RestartIpHlpSvc.ToolTipText" xml:space="preserve">
+    <value>Restart Internet Protocol Helper Service</value>
+  </data>
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 6</value>
+    <value>198, 6</value>
   </data>
   <data name="toolStripMenuItem_New.Size" type="System.Drawing.Size, System.Drawing">
-    <value>164, 22</value>
+    <value>201, 22</value>
   </data>
   <data name="toolStripMenuItem_New.Text" xml:space="preserve">
     <value>New (&amp;N) ...</value>
   </data>
   <data name="toolStripMenuItem_Modify.Size" type="System.Drawing.Size, System.Drawing">
-    <value>164, 22</value>
+    <value>201, 22</value>
   </data>
   <data name="toolStripMenuItem_Modify.Text" xml:space="preserve">
     <value>Modify (&amp;M) ...</value>
   </data>
   <data name="toolStripMenuItem_Delete.Size" type="System.Drawing.Size, System.Drawing">
-    <value>164, 22</value>
+    <value>201, 22</value>
   </data>
   <data name="toolStripMenuItem_Delete.Text" xml:space="preserve">
     <value>Delete (&amp;D)</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 6</value>
+    <value>198, 6</value>
   </data>
   <data name="toolStripMenuItem_Import.Size" type="System.Drawing.Size, System.Drawing">
     <value>149, 22</value>
@@ -180,22 +189,22 @@
     <value>Reset Window</value>
   </data>
   <data name="toolStripMenuItem_More.Size" type="System.Drawing.Size, System.Drawing">
-    <value>164, 22</value>
+    <value>201, 22</value>
   </data>
   <data name="toolStripMenuItem_More.Text" xml:space="preserve">
     <value>More</value>
   </data>
   <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 6</value>
+    <value>198, 6</value>
   </data>
   <data name="toolStripMenuItem_About.Size" type="System.Drawing.Size, System.Drawing">
-    <value>164, 22</value>
+    <value>201, 22</value>
   </data>
   <data name="toolStripMenuItem_About.Text" xml:space="preserve">
     <value>About</value>
   </data>
   <data name="contextMenuStrip_RightClick.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 226</value>
+    <value>202, 270</value>
   </data>
   <data name="&gt;&gt;contextMenuStrip_RightClick.Name" xml:space="preserve">
     <value>contextMenuStrip_RightClick</value>
@@ -228,7 +237,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAEZTeXN0ZW0uV2luZG93cy5Gb3JtcywgQ3VsdHVyZT1uZXV0cmFs
         LCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAmU3lzdGVtLldpbmRvd3MuRm9ybXMu
         SW1hZ2VMaXN0U3RyZWFtZXIBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA3AgAAAJNU0Z0AUkBTAIBAQIB
-        AAGYAQEBmAEBARABAAEQAQAE/wEJAQAI/wFCAU0BNgEEBgABNgEEAgABKAMAAUADAAEQAwABAQEAAQgG
+        AAGgAQEBoAEBARABAAEQAQAE/wEJAQAI/wFCAU0BNgEEBgABNgEEAgABKAMAAUADAAEQAwABAQEAAQgG
         AAEEGAABgAIAAYADAAKAAQABgAMAAYABAAGAAQACgAIAA8ABAAHAAdwBwAEAAfABygGmAQABMwUAATMB
         AAEzAQABMwEAAjMCAAMWAQADHAEAAyIBAAMpAQADVQEAA00BAANCAQADOQEAAYABfAH/AQACUAH/AQAB
         kwEAAdYBAAH/AewBzAEAAcYB1gHvAQAB1gLnAQABkAGpAa0CAAH/ATMDAAFmAwABmQMAAcwCAAEzAwAC
@@ -2632,6 +2641,12 @@
   </data>
   <data name="&gt;&gt;openFileDialog_Import.Type" xml:space="preserve">
     <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem_RestartIpHlpSvc.Name" xml:space="preserve">
+    <value>toolStripMenuItem_RestartIpHlpSvc</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem_RestartIpHlpSvc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>PortProxyGUI</value>

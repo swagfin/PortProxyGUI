@@ -256,6 +256,9 @@ namespace PortProxyGUI
                     case ToolStripMenuItem item when item == toolStripMenuItem_FlushDnsCache:
                         DnsUtil.FlushCache();
                         break;
+                    case ToolStripMenuItem item when item == toolStripMenuItem_RestartIpHlpSvc:
+                        try { PortPorxyUtil.ParamChange(); } catch (Exception ex) { MessageBox.Show(ex.Message, "Restart IpHlpSvc Failed"); }
+                        break;
 
                     case ToolStripMenuItem item when item == toolStripMenuItem_Delete: DeleteSelectedProxies(); break;
 
